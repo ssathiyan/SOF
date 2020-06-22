@@ -12,3 +12,5 @@ libraryDependencies ++= Seq("org.apache.spark" %% "spark-core" % "2.4.0",
 "org.apache.kafka" % "kafka-clients" % "0.10.0.0",
 "io.delta" %% "delta-core" % "0.4.0",
 "com.github.pureconfig" %% "pureconfig" % "0.10.1")
+
+libraryDependencies += "org.json" % "json" % "20200518"
