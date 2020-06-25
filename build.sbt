@@ -2,7 +2,7 @@ name := "SOF"
 
 version := "0.1"
 
-scalaVersion := "2.11.0"
+scalaVersion := "2.11.12"
 
 val excludeJpounts = ExclusionRule(organization = "net.jpountz.lz4", name = "lz4")
 
