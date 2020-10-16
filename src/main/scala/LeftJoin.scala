@@ -13,7 +13,9 @@ object LeftJoin {
     df1.show()
     df2.show()
 
-    val result = df1.join(df2, df1("_c2") === df2(" _c2") && df1("_c3") === df2("_c3"), "left")
+    val result = df1.join(df2, df1("_c2") === df2("_c2") && df1("_c3") === df2("_c3"), "left")
     result.show()
+    df1.write.saveAsTable("t1")
+    spark.catalog.listTables().show(false)
   }
 }

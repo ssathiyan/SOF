@@ -14,3 +14,4 @@ libraryDependencies ++= Seq("org.apache.spark" %% "spark-core" % "2.4.0",
 "com.github.pureconfig" %% "pureconfig" % "0.10.1")
 
 libraryDependencies += "org.json" % "json" % "20200518"
+libraryDependencies += "org.apache.spark" %% "spark-hive" % "2.4.0"
